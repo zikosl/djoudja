@@ -1,0 +1,31 @@
+.input {
+	background: transparent;
+	padding: 10px 17px;
+	border-radius: 10;
+	align-items: center;
+	border-radius: 6px;
+	transition: all .5s;
+	border: 1px solid #D2D2D2;
+	display: flex;
+	flex: 1;
+}
+
+.input.active {
+	background: white;
+	border-color: var(--primary);
+}
+
+.input input {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 21px;
+	padding-left: 0px;
+	/* identical to box height */
+	color: #535353;
+	border: 0;
+	outline: none;
+	background: transparent;
+	width: 100%;
+}

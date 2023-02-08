@@ -1,0 +1,268 @@
+.modalContainer .header {
+    display: inline-block;
+    text-align: center;
+    margin-top: 0;
+}
+
+.header2 h1 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    font-family: Poppins !important;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.header2 {
+    position: relative;
+}
+
+.desc {
+    width: 72%;
+    border: 1px solid;
+    background-color: rgba(38, 181, 239, 0.12);
+    border-color: #26B5EF;
+    color: #0C9DD8;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleCloseBtn {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 0;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.body {
+    padding: 14px 30px;
+}
+
+.title2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--black);
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    margin: 10px
+}
+
+.right {
+    width: 50%;
+    float: right;
+    margin: 10px
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.btnPrecedisable {
+    border: none;
+    background-color: #EAEAEA;
+    color: #262626;
+}
+
+.btnSuiv {
+    border: none;
+    background-color: #26B5EF;
+    color: white;
+}
+
+.modalContainer .footer button {
+    width: 190px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.btnImpr {
+    border: none;
+    background-color: #FF0000;
+    color: white;
+
+}
+
+.btnBrou {
+    align-content: space-between;
+    border: 1px solid;
+    border-color: #08367B;
+    color: #08367B;
+    background-color: white;
+}
+
+.btnSou {
+    border: none;
+    background-color: #26B5EF;
+    color: white;
+
+}
+
+.btnPrece {
+    border: 1px solid;
+    border-color: #26B5EF;
+    color: #26B5EF;
+    background-color: white;
+
+}
+
+/* toggle switch*/
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+
+}
+
+input:checked+.slider {
+    background-color: #4C84FF;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #4C84FF;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+.ToggleSwitch {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 3px
+}
+
+.toggle1 {
+    width: 50%;
+    float: left;
+}
+
+.toggle2 {
+    width: 50%;
+    float: right;
+
+}
+
+
+/* bouton step3 */
+.modalContainer .footer3 {
+    flex: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalContainer .footer3 button {
+    width: 190px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+
+.btnstep3left {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.btnstep3right {
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
